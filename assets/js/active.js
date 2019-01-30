@@ -6,9 +6,15 @@ $(document).ready(function(){
             currentClass : 'active',
             scrollSpeed : 1000,
             filter: ':not(.url)'
-        }); 
-		
-		
+        });
+
+    ityped.init(document.querySelector("#ityped"), {
+        /* showCursor: false, */
+        strings: ['Sukanta', 'a Developer'],
+        loop: true,
+        cursorChar: "|",
+
+    });
 	
 	var owl = $('.owl-carousel');
     owl.owlCarousel({
