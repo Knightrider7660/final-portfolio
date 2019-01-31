@@ -3,17 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="00c0f43c-a2bb-4cc6-9375-5d4eb5caaadc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/barfiller.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/barfiller.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/fullpage.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/fullpage.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/active.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/active.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery-1.12.4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/jquery-1.12.4.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.hover3d.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/jquery.hover3d.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/onepagenav.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/onepagenav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/owl.carousel2.thumbs.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/owl.carousel2.thumbs.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/popper.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,8 +16,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="342" column="76" lean-forward="true" selection-start-line="342" selection-start-column="76" selection-end-line="342" selection-end-column="76" />
+            <state relative-caret-position="1331">
+              <caret line="307" column="32" lean-forward="true" selection-start-line="307" selection-start-column="32" selection-end-line="307" selection-end-column="32" />
               <folding>
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -66,7 +55,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="131" />
     <option name="y" value="-10" />
     <option name="width" value="1377" />
@@ -78,7 +67,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -86,10 +74,16 @@
               <item name="final-portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="final-portfolio" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="final-portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final-portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -123,6 +117,7 @@
       <workItem from="1548837669185" duration="12324000" />
       <workItem from="1548868165557" duration="11093000" />
       <workItem from="1548919339386" duration="10294000" />
+      <workItem from="1548961039502" duration="709000" />
     </task>
     <task id="LOCAL-00001" summary="Counter Up update">
       <created>1548929446836</created>
@@ -135,7 +130,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37584000" />
+    <option name="totallyTimeSpent" value="38539000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -154,24 +149,12 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21709532" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +168,23 @@
     <option name="LAST_COMMIT_MESSAGE" value="Counter Up update" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7182">
+          <caret line="342" column="76" lean-forward="true" selection-start-line="342" selection-start-column="76" selection-end-line="342" selection-end-column="76" />
+          <folding>
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#3;n#div#0;n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6111">
@@ -435,8 +435,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="342" column="76" lean-forward="true" selection-start-line="342" selection-start-column="76" selection-end-line="342" selection-end-column="76" />
+        <state relative-caret-position="1331">
+          <caret line="307" column="32" lean-forward="true" selection-start-line="307" selection-start-column="32" selection-end-line="307" selection-end-column="32" />
           <folding>
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
