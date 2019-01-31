@@ -485,3 +485,34 @@ a.btn:hover ,.main_menu .blk_btn:hover{
     left: -15px;
 }
 /*services CSS*/
+
+/* Start Counter Up Css */
+.counter_area {
+	background-image: url("../images/b3.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 9;
+	padding: 100px 0px;
+	color: #fff;
+}
+.single_counter {
+	padding: 35px 24px;
+	border: 1px dashed rgb(137, 133, 133 ,.5);
+}
+.single_counter i {
+	font-size: 42px;
+	color: #c2d25d;
+	font-weight: bold;
+}
+.single_counter h1 {
+	margin: 12px 0px;
+}
+.single_counter h5 {
+	font-size: 15px;
+	color: #c4c0c0;
+	font-weight: lighter;
+}
+/* End Counter Up Css */
