@@ -517,3 +517,22 @@ a.btn:hover ,.main_menu .blk_btn:hover{
 	font-weight: lighter;
 }
 /* End Counter Up Css */
+
+/* Start Portfolio Css */
+.portfolio_area .filtering .active {
+	color: #fff;
+	background: #C49B66;
+	border-color: #C49B66;
+}
+.portfolio_area .filtering span {
+	padding: 8px 20px;
+	margin: 0 5px;
+	color: #777;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 13px;
+	cursor: pointer;
+	border: 1px solid #eee;
+	border-radius: 10px;
+}
+/* End Portfolio Css */
