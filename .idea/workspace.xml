@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00c0f43c-a2bb-4cc6-9375-5d4eb5caaadc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="00c0f43c-a2bb-4cc6-9375-5d4eb5caaadc" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +32,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="502" column="28" selection-start-line="502" selection-start-column="28" selection-end-line="502" selection-end-column="28" />
+            <state relative-caret-position="127">
+              <caret line="500" selection-start-line="500" selection-end-line="503" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -140,7 +137,7 @@
       <workItem from="1548788505524" duration="3416000" />
       <workItem from="1548837669185" duration="12324000" />
       <workItem from="1548868165557" duration="11093000" />
-      <workItem from="1548919339386" duration="5585000" />
+      <workItem from="1548919339386" duration="6366000" />
     </task>
     <task id="LOCAL-00001" summary="Counter Up update">
       <created>1548929446836</created>
@@ -153,7 +150,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32418000" />
+    <option name="totallyTimeSpent" value="33199000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -302,8 +299,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="502" column="28" selection-start-line="502" selection-start-column="28" selection-end-line="502" selection-end-column="28" />
+        <state relative-caret-position="127">
+          <caret line="500" selection-start-line="500" selection-end-line="503" selection-end-column="1" />
         </state>
       </provider>
     </entry>
