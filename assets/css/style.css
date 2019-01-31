@@ -500,7 +500,7 @@ a.btn:hover ,.main_menu .blk_btn:hover{
 }
 .single_counter {
 	padding: 35px 24px;
-	border: 1px dashed rgb(137, 133, 133 ,.5);
+	border: 1px double rgb(137, 133, 133 ,.5);
 }
 .single_counter i {
 	font-size: 42px;
