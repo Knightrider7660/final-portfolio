@@ -33,7 +33,10 @@ $(document).ready(function(){
         time: 2000
     });
 	
-		/* PortfolioIsotope Masonry */
+	
+	
+		
+			/* PortfolioIsotope Masonry  */
 		
 		var $grid = $('.portfolio_active').isotope({
 		  itemSelector: '.grid-item',
@@ -43,15 +46,16 @@ $(document).ready(function(){
 		  }
 		});		
 		
+		
 		/* Portfolio Menu Isotope */
-		$('.portfolio_btn').on( 'click', 'button', function() {
+		$('.filtering').on( 'click', 'span', function() {
 		  var filterValue = $(this).attr('data-filter');
 		  $grid.isotope({ filter: filterValue });
 		});
 			
-	   /* Active Js*/ 
+	   /* Active Js*/
 
-		$('.portfolio_btn button').on('click', function(event) {
+		$('.filtering span').on('click', function(event) {
 			$(this).siblings('.active').removeClass('active');
 			$(this).addClass('active');
 			event.preventDefault();
@@ -59,7 +63,8 @@ $(document).ready(function(){
 		
 		
 		
-		
+	
+	
 		
 new WOW().init();
 	
