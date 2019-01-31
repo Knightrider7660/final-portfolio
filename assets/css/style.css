@@ -35,9 +35,12 @@ ul{
 	padding:0;
 	list-style:none
 }
-p{
-	font-size:14px;
-	margin-bottom:0px;
+p {
+    font-size: 15px;
+    color: #a3a3a3;
+    line-height: 1.6;
+    word-spacing: 1px;
+    margin: 0;
 }
 body {
 	font-family: 'Noto Sans', sans-serif;
@@ -440,5 +443,45 @@ a.btn:hover ,.main_menu .blk_btn:hover{
 }
 .title.about_title.title-left.service_title::after {
     left: calc(50% - 30px);
+}
+.services .item {
+    text-align: center;
+    padding: 40px 15px;
+}
+.services .item .icon {
+    font-size: 40px;
+    color: #C49B66;
+    margin-bottom: 30px;
+}
+.services .item h6 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.services .active {
+    border-right: 1px solid #eee;
+    border-left: 1px solid #eee;
+    position: relative;
+}
+.services .bord {
+    border-bottom: 1px solid #eee;
+}
+.full-width{
+    width: 100%!important;
+}
+.services .active.bolt::before, .services .active.bolt::after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    bottom: -15px;
+    z-index: 4;
+}
+.services .active.bolt::after {
+    right: -15px;
+}
+.services .active.bolt::before {
+    left: -15px;
 }
 /*services CSS*/
