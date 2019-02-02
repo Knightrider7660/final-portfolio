@@ -564,7 +564,6 @@ a.btn:hover ,.main_menu .blk_btn:hover{
 .portfolio-content figure {
 	margin: 0;
 }
-
 .portfolio-content figure img {
 	display: block;
 	width: 100%;
@@ -583,12 +582,12 @@ a.btn:hover ,.main_menu .blk_btn:hover{
 	text-align: center;
 	visibility: hidden;
 	opacity: 0;
-	transition: all 0.35s;
+    transition: linear all .4s;
 }
-
 .portfolio-content:hover .entry-content {
 	visibility: visible;
 	opacity: 1;
+    transition: linear all .4s;
 }
 
 .portfolio-content h3 {
