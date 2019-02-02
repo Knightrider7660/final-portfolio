@@ -80,6 +80,5 @@ new WOW().init();
    }else{
     $(".sticky").addClass("scroll-header");
    }
-  }); 
-  
- 
+  });
+

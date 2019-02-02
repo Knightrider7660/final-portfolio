@@ -4,6 +4,7 @@
 }
 
 /* Base CSS */
+
 html{
 	font-family: 'Ubuntu', sans-serif;
 }
@@ -13,6 +14,12 @@ a:hover {
 	display: inline-block;
 	text-decoration: none;
 	color: inherit;
+}
+.flex {
+	display: flex;
+}
+.no-padding {
+	padding: 0;
 }
 img {
 	width: 100%;
@@ -540,4 +547,79 @@ a.btn:hover ,.main_menu .blk_btn:hover{
 	border: 1px solid #eee;
 	border-radius: 10px;
 }
+.btn.btn-sm.btn-secondary.p-0.pl-1.pr-1.view_btn{
+    background-color: gray;
+}
+.portfolio-page .scroll-down {
+	margin-left: -60px;
+}
+.portfolio-content {
+	position: relative;
+	margin-bottom: 30px;
+}
+.portfolio-content {
+	margin-bottom: 0;
+}
+
+.portfolio-content figure {
+	margin: 0;
+}
+
+.portfolio-content figure img {
+	display: block;
+	width: 100%;
+	height: auto;
+	min-height: 100%;
+}
+
+.portfolio-content .entry-content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,.9);
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.35s;
+}
+
+.portfolio-content:hover .entry-content {
+	visibility: visible;
+	opacity: 1;
+}
+
+.portfolio-content h3 {
+	margin-bottom: 0;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+.home-page .portfolio-content h3 {
+	font-size: 2.25rem;
+}
+
+.portfolio-content h3 a {
+	color: #191919;
+	text-decoration: none;
+}
+
+.portfolio-content ul {
+    padding: 0;
+    margin: 4px 0 8px 0;
+    list-style: none;
+}
+
+.portfolio-content li {
+	margin: 0 3px;
+}
+
+.portfolio-content li a {
+	font-size: 0.875rem;
+	color: #a6a6a6;
+}
+
 /* End Portfolio Css */
