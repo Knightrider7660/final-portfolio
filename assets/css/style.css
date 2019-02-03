@@ -547,7 +547,7 @@ a.btn:hover ,.main_menu .blk_btn:hover{
 	border: 1px solid #eee;
 	border-radius: 10px;
 }
-.btn.btn-sm.btn-secondary.p-0.pl-1.pr-1.view_btn{
+.btn.btn-sm.btn-secondary.p-0.pl-3.pr-3.view_btn{
     background-color: gray;
 }
 .portfolio-page .scroll-down {
@@ -622,3 +622,42 @@ a.btn:hover ,.main_menu .blk_btn:hover{
 }
 
 /* End Portfolio Css */
+
+/* Start Clients Says Css */
+.client_area {
+    background-image: url("../images/bg-testi .jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 99;
+}
+.client_area .title.about_title.title-left.service_title {
+    color: #fff;
+}
+.client_area .section_border .f_class {
+    background-color: #fff;
+}
+.client_area .section_border .s_class {
+    background-color: #fff;
+}
+.single_client img {
+    opacity: 0;
+    max-width:100px
+}
+.single_client {
+    text-align: center;
+    padding: 71px 40px;
+}
+.single_client p {
+    padding: 7px 237px;
+    line-height: 1.8;
+    color: #EAF0F5;
+    font-size: 15px;
+}
+.single_client h5 {
+    color: #78802C;
+    padding-top: 16px;
+    font-weight: 700;
+}
+/* End Clients Says Css */
