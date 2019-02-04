@@ -344,6 +344,7 @@ a.btn:hover ,.main_menu .blk_btn:hover{
 	cursor: pointer;
 	color: #111;
 	background-color: #227a64;
+	letter-spacing: .5px;
 }
 .buton.buton-bord.text-center.download .front {
     background-color: #fff;
@@ -724,6 +725,57 @@ a.btn:hover ,.main_menu .blk_btn:hover{
     font-weight: 600;
 }
 /* End Blog Css */
+
+/*Contact Css*/
+.contact {
+	position: relative;
+	background-image: url("../../assets/images/b5.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: 99;
+}
+.contact .section-head h4 {
+	color: #d7cccc;
+}
+.contact .section-head h4 span {
+	color: #fff;
+}
+.contact .form input[type="text"], .contact .form input[type="email"], .contact .form textarea {
+	width: 100%;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	padding: 10px;
+	background: rgba(10, 10, 10, 0.4);
+	color: #fff;
+	margin-bottom: 15px;
+}
+.contact .info {
+	margin-top: 50px;
+}
+.contact .info .item .fas {
+	float: left;
+	padding-top: 5px;
+	font-size: 25px;
+	color: #C49B66;
+}
+.contact .info .item .cont {
+	margin-left: 45px;
+	padding-left: 15px;
+	border-left: 1px solid rgba(200, 200, 200, 0.4);
+}
+.contact .info .item .cont h6 {
+	font-size: 14px;
+	color: #fff;
+	margin-bottom: 0;
+}
+.contact .info .item .cont p {
+	font-size: 15px;
+	color: #a3a3a3;
+	line-height: 1.6;
+	word-spacing: 1px;
+	margin: 0;
+}
+/*Contact Css*/
 
 /*Bottom Footer*/
 .bottom {
