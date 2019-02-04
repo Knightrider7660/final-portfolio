@@ -661,3 +661,94 @@ a.btn:hover ,.main_menu .blk_btn:hover{
     font-weight: 700;
 }
 /* End Clients Says Css */
+
+/* Start Blog Css */
+.blog_area {
+    padding-bottom: 262px;
+    background-color: #F8F9FA;
+}
+.blogs{}
+.single_blog{	position: relative;}
+.blog_img {
+
+}
+.blog_img img{}
+
+.blog_content {
+    position: absolute;
+    bottom: -194px;
+    margin: -42px 0px;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 24px 23px;
+}
+.blog_content_top {
+    border-bottom: 1px solid #9996;
+    margin-bottom: 21px;
+}
+.blog_content strong {
+    position: absolute;
+    top: -14px;
+    background-color: #C49B66;
+    color: #fff;
+    padding: 3px 19px;
+    font-size: 14px;
+    border-radius: 0;
+    cursor: pointer;
+    right: 0;
+}
+.blog_content_top h4 {
+    font-size: 18px;
+    margin-top: 11px;
+}
+.blog_content_top p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 19px;
+    color: #6E757B;;
+}
+.blog_content_bottom p {
+    float: left;
+    margin-right: 22px;
+    color: #646F79;
+    font-size: 13px;
+}
+.blog_content_bottom p a {
+    color: #6e6868;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.blog_content_bottom span {
+    color: #5C4E50;
+    cursor: pointer;
+    font-weight: 600;
+}
+/* End Blog Css */
+
+/*Bottom Footer*/
+.bottom {
+    background-color: #0a1c2e;
+}
+.bottom .copyright {
+    color: #e5e5e5;
+    font-weight: 600;
+}
+.copyright a {
+    color: #f2ff49;
+    margin-left: 3px;
+    padding-right: 3px;
+}
+.bottom p {
+    margin-bottom: 0;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.copyright p span {
+    color: #d1caca;
+}
+.bottom .copyright p, .bottom .copyright a:hover{
+    color: #6c6d83;
+}
+
+/*Bottom Footer*/
