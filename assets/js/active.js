@@ -1,6 +1,4 @@
 $(document).ready(function(){
-	
-	
 	/* Onepage Active */       
         $('.onepage_nav').onePageNav({
             currentClass : 'active',
@@ -22,49 +20,22 @@ $(document).ready(function(){
         items: 1
     });  
 
-	
-	
+	//counter UP
 	$('.counter').counterUp({
         delay: 10,
         time: 2000
     });
-	
-	
-	
-		
-			/* PortfolioIsotope Masonry  */
-		
-		var $grid = $('.portfolio_active').isotope({
-		  itemSelector: '.grid-item',
-		  percentPosition: true,
-		  masonry: {
-			columnWidth: 1
-		  }
-		});		
-		
-		
-		/* Portfolio Menu Isotope */
-		$('.filtering').on( 'click', 'span', function() {
-		  var filterValue = $(this).attr('data-filter');
-		  $grid.isotope({ filter: filterValue });
-		});
-			
-	   /* Active Js*/
+    //counter UP
 
-		$('.filtering span').on('click', function(event) {
-			$(this).siblings('.active').removeClass('active');
-			$(this).addClass('active');
-			event.preventDefault();
-		});	
-		
-		
-		
-	
-	
-		
 new WOW().init();
-	
-	
+
+    // Bar filler
+    $('#bar1').barfiller({ barColor: '#8d7e49',duration: 3000 });
+    $('#bar2').barfiller({ barColor: '#8d7e49'});
+    $('#bar3').barfiller({ barColor: '#8d7e49',duration: 3000  });
+    $('#bar4').barfiller({ barColor: '#8d7e49'});
+    $('#bar5').barfiller({ barColor: '#8d7e49', duration: 3000 });
+    // Bar filler
 
 });
 

@@ -131,7 +131,6 @@ a {
 }
 
 .logo {
-	width: 111px;
 	height: 41px;
 	padding: 7px 0px;
 }
@@ -420,7 +419,6 @@ a.btn:hover,
 	cursor: pointer;
 	color: #111;
 	background-color: #227a64;
-	letter-spacing: .5px;
 }
 
 .buton.buton-bord.text-center.download .front {
@@ -505,48 +503,59 @@ a.btn:hover,
 .item li p {
 	color: #999;
 }
-
-.skills .skill {
-	margin-bottom: 30px;
-}
-
-.skills .skill:last-child {
-	margin-bottom: 0;
-}
-
-.skills .skill h6 {
+/* Bar filler*/
+.single_skill .skill_text {
+	font-size: 13px;
+	font-weight: 600;
 	color: #fff;
-	margin-bottom: 8px;
-	font-size: 14px;
-	font-weight: 400;
+}
+.barfiller {
+	width:100%;
+	height:10px;
+	background:#fcfcfc;
+	border:1px solid #ccc;
+	position:relative;
+	margin-bottom:10px;
+	box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,.5);
+	-moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,.5);
 }
 
-.skills .skill .skills-progress {
-	position: relative;
-	width: 100%;
-	height: 4px;
-	background: rgba(80, 80, 80, 0.3);
+.barfiller .fill {
+	display:block;
+	position:relative;
+	width:0;
+	height:100%;
+	background:#333;
+	z-index:1;
 }
 
-.skills .skill .skills-progress span {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 5%;
-	background: #8d7e49;
-	transition: all 1s;
+.barfiller .tipWrap {
+	display:none;
 }
 
-.skills .skill h6 span {
-	padding: 4px 8px 0;
-	font-size: 10px;
-	float: right;
-	background: rgba(80, 80, 80, 0.3);
-	position: relative;
-	top: 8px;
+.barfiller .tip {
+	margin-top:-30px;
+	padding:2px 4px;
+	font-size:11px;
+	color:#fff;
+	left:0px;
+	position:absolute;
+	z-index:2;
+	background: #333;
 }
 
+.barfiller .tip:after {
+	border:solid;
+	border-color:rgba(0,0,0,.8) transparent;
+	border-width:6px 6px 0 6px;
+	content:"";
+	display:block;
+	position:absolute;
+	left:9px;
+	top:100%;
+	z-index:9
+}
+/*Barfiller*/
 
 /*skill css*/
 
